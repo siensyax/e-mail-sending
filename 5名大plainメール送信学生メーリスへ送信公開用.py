@@ -30,7 +30,7 @@ msg["To"] = to_email
 msg["From"] = from_email
 
 # メール送信処理
-# 実際にgmlaiにポート番号を指定して，メール送信用のオブジェクトを作成する
+# 実際にポート番号を指定して，メール送信用のオブジェクトを作成する
 server = smtplib.SMTP("mail.i.mbox.nagoya-u.ac.jp", 587)
 # デバッグ用にログを出力させる
 # server.set_debuglevel(True)
