@@ -1,5 +1,5 @@
 # e-mail-sending
-Pythonでメール送信を実装しました
+Pythonでメール送信するスクリプトです．
 
 用いたライブラリは以下の二つです．
 - email
